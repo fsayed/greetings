@@ -1,17 +1,19 @@
 package deutsch
 
 import (
-	"fmt"
+
 	
 )
 
 
-func Hello() {
+func Hello() (string){
 
-	fmt.Printf("Hallo")
+	//	fmt.Printf("Hallo")
+	return "Hallo"
 }
 
-func Hi() {
-	fmt.Println("Guten Tag")
+func Hi() (string){
+	//	fmt.Println("Guten Tag")
+	return "Guten Tag"
 }
 
